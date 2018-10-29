@@ -1,4 +1,6 @@
 import os
+from os.path import isfile, join
+from os import listdir
 import pandas as pd
 from pandas import ExcelWriter
 from pandas import ExcelFile
@@ -10,19 +12,30 @@ class QuarterlyPicker:
     def __init__(self):
         # tickers whose growth 10% for 10 years
         self.qualified_ticker_list = []
-        self.growth_annual_path = '../NASDAQ-100/growth/annual/'
-        self.growth_quarterly_path = '../NASDAQ-100/growth/quarterly/'
+        self.growth_annual_path = '../datasets/NASDAQ-100/financial_statement/growth/annual/'
+        self.growth_quarterly_path = '../datasets/NASDAQ-100/financial_statement/growth/quarterly/'
+
+    def get_all_file_name(self, file_path, file_format):
+        # get all files names
+        files_names = [f for f in listdir(file_path) if isfile(join(file_path, f))]
+        name_array = []
+
+        for name in files_names:
+            if file_format in name:
+                name_array.append(name)
+
+        return name_array
 
     def read_one_file(self, path, file):
         # exclude non csv files
         if not '.xlsx' in file:
-            print("Not a xlsx file. ", file)
+            # print("Not a xlsx file. ", file)
             return
-        print('reading file: ', file)
+        print('reading file: ', file, '\n')
         df = pd.read_excel(path + file)
         return df
 
-    def factorCheck(self, df, row_name, avg_growth_bar, all_postive_bar, each_period_growth_bar):
+    def checkFector(self, df, row_name, avg_growth_bar, all_postive_bar, each_period_growth_bar):
         """
         Check wanted data by the given factor, which is one of the row names.
 
@@ -44,7 +57,7 @@ class QuarterlyPicker:
             if avg_growth < avg_growth_bar:
                 print('Lower than avg growth bar value, will return false.')
                 print(row_name, ' avg growth is ', avg_growth)
-                print('avg growth bar is ', avg_growth_bar)
+                print('avg growth bar is ', avg_growth_bar, '\n')
                 return False
 
             for index, value in factor.items():
@@ -52,7 +65,7 @@ class QuarterlyPicker:
                 # check all positive growth
                 if all_postive_bar:
                     if value < 0:
-                        print('Negative growth found at ', index, ' value: ', value)
+                        print('Negative growth found at ', index, ' value: ', value, '\n')
                         return False
                 # check greater than the bar at each time
                 if value < each_period_growth_bar:
@@ -61,16 +74,58 @@ class QuarterlyPicker:
                     return False
 
         except Exception:
-            print("This factor may not processed.")
+            print("This factor may not processed.\n")
             return False
 
         # pass all bars, return true
         return True
 
+    def checkCoreFactors(self, df, factor_one, factor_two, factor_three):
+        """
+        Check three core factors. Default factors are EPS Growth, Operating Income Growth, Operating CF Growth.
+        Traditionally, should check core three factors: EPS Growth, PEG, Operating Income Growth,
+        but PEG is not available in the dataset. I choose to use simple factors.
+        Later try FCF Growth and PEG.
+
+        :param df: company financial data in dataframe
+        :param factor_one: EPS Growth
+        :param factor_two: Operating Income Growth
+        :param factor_three: Operating CF Growth
+        :return: True if pass all three checks, else False
+        """
+        # 0.10: expect in high EPS growth
+        # True: try high standard bar
+        # 0.03: expect EPS growth greater than saving money in banks
+        eps_result = self.checkFector(df, factor_one, 0.05, False, -0.1)
+
+        # 0.1: expect total big growth
+        # True: expect the company always has a positive trend
+        # 0.05: expect each year growth
+        op_income_result = self.checkFector(df, factor_two, 0.1, False, -0.1)
+
+        # 0.1: expect total boost in cash growth
+        # True: expect the company always has a positive trend
+        # 0.05: expect each year has a healthy cash flow growth
+        op_cf_result = self.checkFector(df, factor_three, 0.1, False, -0.1)
+
+        if eps_result and op_income_result and op_cf_result:
+            return True
+        else:
+            return False
+
+    def start(self):
+        # get all file names
+        ticker_list = self.get_all_file_name(self.growth_annual_path, '.xlsx')
+
+        for ticker in ticker_list:
+            df = self.read_one_file(self.growth_annual_path, ticker)
+            if not df.empty:
+                # Check three core factors. Default factors are EPS Growth, Operating Income Growth, Operating CF Growth.
+                if self.checkCoreFactors(df, 'EPS Growth', 'Operating Income Growth', 'Operating CF Growth'):
+                    print('Company satisfies three default core factors: ', ticker, '\n')
 
 
 
 if __name__ == '__main__':
     qp = QuarterlyPicker()
-    df = qp.read_one_file(qp.growth_annual_path, 'AAL.xlsx')
-    qp.factorCheck(df, 'Operating CF Growth', 0.1, False, 0.1)
+    qp.start()

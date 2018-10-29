@@ -2,10 +2,213 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5edeb5a-f154-4ae7-892a-657f0cdccfcd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Big-Data-Robo-Adviser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Big-Data-Robo-Adviser.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classify_Stocks/get_10%_growth_stocks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classify_Stocks/get_10%_growth_stocks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/AAL.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/AAL.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/AAPL.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/AAPL.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/ADBE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/ADBE.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/ADI.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/ADI.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/ADP.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/ADP.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/ADSK.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/ADSK.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/ALGN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/ALGN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/ALXN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/ALXN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/AMAT.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/AMAT.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/AMGN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/AMGN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/AMZN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/AMZN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/ASML.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/ASML.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/ATVI.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/ATVI.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/AVGO.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/AVGO.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/BIDU.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/BIDU.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/BIIB.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/BIIB.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/BKNG.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/BKNG.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/BMRN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/BMRN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/CA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/CA.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/CDNS.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/CDNS.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/CELG.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/CELG.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/CHKP.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/CHKP.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/CHTR.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/CHTR.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/CMCSA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/CMCSA.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/COST.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/COST.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/CSCO.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/CSCO.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/CSX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/CSX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/CTAS.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/CTAS.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/CTRP.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/CTRP.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/CTSH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/CTSH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/CTXS.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/CTXS.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/DLTR.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/DLTR.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/EA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/EA.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/EBAY.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/EBAY.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/ESRX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/ESRX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/EXPE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/EXPE.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/FAST.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/FAST.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/FB.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/FB.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/FISV.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/FISV.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/FOX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/FOX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/FOXA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/FOXA.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/GILD.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/GILD.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/GOOG.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/GOOG.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/GOOGL.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/GOOGL.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/HAS.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/HAS.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/HOLX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/HOLX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/HSIC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/HSIC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/IDXX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/IDXX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/ILMN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/ILMN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/INCY.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/INCY.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/INTC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/INTC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/INTU.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/INTU.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/ISRG.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/ISRG.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/JBHT.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/JBHT.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/JD.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/JD.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/KHC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/KHC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/KLAC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/KLAC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/LBTYA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/LBTYA.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/LBTYK.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/LBTYK.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/LRCX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/LRCX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/MAR.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/MAR.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/MCHP.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/MCHP.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/MDLZ.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/MDLZ.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/MELI.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/MELI.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/MNST.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/MNST.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/MSFT.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/MSFT.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/MU.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/MU.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/MXIM.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/MXIM.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/MYL.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/MYL.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/NFLX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/NFLX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/NTES.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/NTES.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/NVDA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/NVDA.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/ORLY.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/ORLY.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/PAYX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/PAYX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/PCAR.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/PCAR.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/PEP.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/PEP.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/PYPL.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/PYPL.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/QCOM.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/QCOM.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/QRTEA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/QRTEA.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/REGN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/REGN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/ROST.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/ROST.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/SBUX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/SBUX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/SHPG.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/SHPG.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/SIRI.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/SIRI.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/SNPS.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/SNPS.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/STX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/STX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/SWKS.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/SWKS.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/SYMC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/SYMC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/TMUS.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/TMUS.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/TSLA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/TSLA.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/TTWO.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/TTWO.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/TXN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/TXN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/ULTA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/ULTA.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/VOD.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/VOD.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/VRSK.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/VRSK.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/VRTX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/VRTX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/WBA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/WBA.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/WDAY.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/WDAY.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/WDC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/WDC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/WYNN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/WYNN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/XLNX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/XLNX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/XRAY.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/annual/XRAY.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/annual/~$AAL.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/AAL.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/AAL.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/AAPL.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/AAPL.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/ADBE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/ADBE.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/ADI.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/ADI.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/ADP.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/ADP.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/ADSK.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/ADSK.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/ALGN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/ALGN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/ALXN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/ALXN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/AMAT.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/AMAT.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/AMGN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/AMGN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/AMZN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/AMZN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/ASML.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/ASML.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/ATVI.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/ATVI.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/AVGO.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/AVGO.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/BIDU.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/BIDU.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/BIIB.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/BIIB.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/BKNG.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/BKNG.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/BMRN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/BMRN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/CA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/CA.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/CDNS.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/CDNS.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/CELG.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/CELG.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/CHKP.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/CHKP.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/CHTR.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/CHTR.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/CMCSA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/CMCSA.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/COST.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/COST.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/CSCO.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/CSCO.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/CSX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/CSX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/CTAS.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/CTAS.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/CTRP.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/CTRP.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/CTSH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/CTSH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/CTXS.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/CTXS.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/DLTR.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/DLTR.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/EA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/EA.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/EBAY.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/EBAY.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/ESRX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/ESRX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/EXPE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/EXPE.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/FAST.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/FAST.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/FB.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/FB.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/FISV.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/FISV.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/FOX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/FOX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/FOXA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/FOXA.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/GILD.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/GILD.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/GOOG.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/GOOG.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/GOOGL.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/GOOGL.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/HAS.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/HAS.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/HOLX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/HOLX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/HSIC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/HSIC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/IDXX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/IDXX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/ILMN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/ILMN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/INCY.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/INCY.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/INTC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/INTC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/INTU.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/INTU.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/ISRG.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/ISRG.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/JBHT.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/JBHT.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/JD.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/JD.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/KHC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/KHC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/KLAC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/KLAC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/LBTYA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/LBTYA.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/LBTYK.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/LBTYK.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/LRCX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/LRCX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/MAR.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/MAR.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/MCHP.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/MCHP.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/MDLZ.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/MDLZ.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/MELI.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/MELI.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/MNST.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/MNST.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/MSFT.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/MSFT.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/MU.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/MU.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/MXIM.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/MXIM.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/MYL.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/MYL.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/NFLX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/NFLX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/NTES.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/NTES.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/NVDA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/NVDA.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/ORLY.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/ORLY.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/PAYX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/PAYX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/PCAR.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/PCAR.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/PEP.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/PEP.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/PYPL.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/PYPL.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/QCOM.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/QCOM.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/QRTEA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/QRTEA.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/REGN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/REGN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/ROST.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/ROST.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/SBUX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/SBUX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/SHPG.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/SHPG.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/SIRI.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/SIRI.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/SNPS.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/SNPS.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/STX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/STX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/SWKS.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/SWKS.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/SYMC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/SYMC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/TMUS.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/TMUS.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/TSLA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/TSLA.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/TTWO.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/TTWO.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/TXN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/TXN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/ULTA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/ULTA.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/VOD.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/VOD.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/VRSK.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/VRSK.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/VRTX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/VRTX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/WBA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/WBA.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/WDAY.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/WDAY.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/WDC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/WDC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/WYNN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/WYNN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/XLNX.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/XLNX.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NASDAQ-100/growth/quarterly/XRAY.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement/growth/quarterly/XRAY.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,12 +244,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2054" />
+          <entry key="py" value="3660" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2054" />
+          <entry key="Python" value="3660" />
         </counts>
       </usages-collector>
     </session>
@@ -87,10 +290,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Classify_Stocks/get_10%_growth_stocks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="56" column="57" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
+            <state relative-caret-position="248">
+              <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
+                <marker date="1540836618338" expanded="true" signature="4114:4792" ph="..." />
               </folding>
             </state>
           </provider>
@@ -112,6 +316,12 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Compan</find>
+      <find>Company</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -149,18 +359,25 @@
             <path>
               <item name="Big-Data-Robo-Adviser" type="b2602c69:ProjectViewProjectNode" />
               <item name="Big-Data-Robo-Adviser" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Big-Data-Robo-Adviser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Big-Data-Robo-Adviser" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="NASDAQ-100" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Big-Data-Robo-Adviser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Big-Data-Robo-Adviser" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="NASDAQ-100" type="462c0819:PsiDirectoryNode" />
+              <item name="financial_statement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Big-Data-Robo-Adviser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Big-Data-Robo-Adviser" type="462c0819:PsiDirectoryNode" />
               <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Big-Data-Robo-Adviser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Big-Data-Robo-Adviser" type="462c0819:PsiDirectoryNode" />
-              <item name="NASDAQ-100" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Big-Data-Robo-Adviser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Big-Data-Robo-Adviser" type="462c0819:PsiDirectoryNode" />
-              <item name="NASDAQ-100" type="462c0819:PsiDirectoryNode" />
-              <item name="growth" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Big-Data-Robo-Adviser" type="b2602c69:ProjectViewProjectNode" />
@@ -180,6 +397,12 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/datasets/NASDAQ-100/financial_statement" />
+      <recent name="$PROJECT_DIR$/datasets" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -243,7 +466,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22054794" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28630137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -278,15 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/因子选择-1.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/因子选择-2.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/因子选择-3.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
@@ -295,12 +509,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/doc/因子选择-1.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/因子选择-3.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/因子选择-2.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Classify_Stocks/get_10%_growth_stocks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="56" column="57" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
+        <state relative-caret-position="248">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+            <marker date="1540836618338" expanded="true" signature="4114:4792" ph="..." />
           </folding>
         </state>
       </provider>

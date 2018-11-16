@@ -1,0 +1,3 @@
+[console_scripts]
+csv2arff = csv2arff.csv2arff:main
+

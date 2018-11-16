@@ -12,8 +12,8 @@ class QuarterlyPicker:
     def __init__(self):
         # tickers whose growth 10% for 10 years
         self.qualified_ticker_list = []
-        self.growth_annual_path = '../datasets/NASDAQ-100/financial_statement/growth/annual/'
-        self.growth_quarterly_path = '../datasets/NASDAQ-100/financial_statement/growth/quarterly/'
+        self.growth_annual_path = '../datasets/NASDAQ/financial_statement/growth/annual/'
+        self.growth_quarterly_path = '../datasets/NASDAQ/financial_statement/growth/quarterly/'
 
     def get_all_file_name(self, file_path, file_format):
         # get all files names
@@ -32,7 +32,11 @@ class QuarterlyPicker:
             # print("Not a xlsx file. ", file)
             return
         print('reading file: ', file, '\n')
-        df = pd.read_excel(path + file)
+        try:
+            df = pd.read_excel(path + file)
+        except:
+            print(f"can't read {file}")
+            return None
         return df
 
     def checkFector(self, df, row_name, avg_growth_bar, all_postive_bar, each_period_growth_bar):
@@ -116,15 +120,18 @@ class QuarterlyPicker:
     def start(self):
         # get all file names
         ticker_list = self.get_all_file_name(self.growth_annual_path, '.xlsx')
+        result_list = list()
 
         for ticker in ticker_list:
             df = self.read_one_file(self.growth_annual_path, ticker)
-            if not df.empty:
+            if not df.empty and df is not None:
                 # Check three core factors. Default factors are EPS Growth, Operating Income Growth, Operating CF Growth.
                 if self.checkCoreFactors(df, 'EPS Growth', 'Operating Income Growth', 'Operating CF Growth'):
                     print('Company satisfies three default core factors: ', ticker, '\n')
-
-
+                    result_list.append(ticker)
+        print("here is the qualified tickers: ", result_list)
+        res = pd.DataFrame(result_list, columns=['ticker'])
+        res.to_csv('qualified_tickers.csv', index=False)
 
 if __name__ == '__main__':
     qp = QuarterlyPicker()

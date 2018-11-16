@@ -9,6 +9,11 @@ from urllib.request import urlopen
 from urllib import parse
 import pandas as pd
 
+# NASDAQ financial statement growth annual path
+N_fs_growth_ann_path = '../datasets/NASDAQ/financial_statement/growth/annual/'
+# NASDAQ financial statement growth quarterly path
+N_fs_growth_qua_path = '../datasets/NASDAQ/financial_statement/growth/quarterly/'
+
 
 def get_company_financial_statement_page(company, raw_url):
     url = raw_url.format(company)
@@ -51,14 +56,14 @@ def download_growth_sheet(ticker):
     a_req.add_header("User-Agent","Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36")
 
     file_name = "%s.xlsx"%(ticker)
-    quarterly_path = "./financial_statements/growth/quarterly/%s"%(file_name)
-    annual_path = "./financial_statements/growth/annual/%s"%(file_name)
+    # quarterly_path = "../datasets/NASDAQ/financial_statements/growth/quarterly/%s"%(file_name)
+    # annual_path = "../datasets/NASDAQ/financial_statements/growth/annual/%s"%(file_name)
 
     # download quarterly growth
     response = urlopen(q_req)
     file = response.read()
 
-    with open(quarterly_path, 'wb') as q_f:
+    with open(N_fs_growth_qua_path+file_name, 'wb') as q_f:
         q_f.write(file)
         print("save quarterly growth: %s"%(file_name))
 
@@ -66,7 +71,7 @@ def download_growth_sheet(ticker):
     response = urlopen(a_req)
     file = response.read()
 
-    with open(annual_path, 'wb') as a_f:
+    with open(N_fs_growth_ann_path+file_name, 'wb') as a_f:
         a_f.write(file)
         print("save annual growth: %s"%(file_name))
 
@@ -85,16 +90,31 @@ def download_all(name_list):
     # print(name_list)
 
     for ticker in name_list:
-        download_growth_sheet(ticker)
+        try:
+            download_growth_sheet(ticker)
+        except:
+            print("something wrong, ", ticker, " is not downloaded.")
+
+def get_all_NASDAQ_company():
+    # with open("./NASDAQ_companylist.csv", 'r') as f:
+    return pd.read_csv('NASDAQ_companylist.csv')
+
 
 if __name__ == '__main__':
 
     # download_growth_sheet('GOOGL')
 
-    nasdaq_100_name_list = ['ATVI', 'ADBE', 'ALXN', 'ALGN', 'GOOGL', 'GOOG', 'AMZN', 'AAL', 'AMGN', 'ADI', 'AAPL', 'AMAT', 'ASML', 'ADSK', 'ADP', 'BIDU', 'BIIB', 'BMRN', 'BKNG', 'AVGO', 'CA', 'CDNS', 'CELG', 'CHTR', 'CHKP', 'CTAS', 'CSCO', 'CTXS', 'CTSH', 'CMCSA', 'COST', 'CSX', 'CTRP', 'XRAY', 'DLTR', 'EBAY', 'EA', 'EXPE', 'ESRX', 'FB', 'FAST', 'FISV', 'GILD', 'HAS', 'HSIC', 'HOLX', 'IDXX', 'ILMN', 'INCY', 'INTC', 'INTU', 'ISRG', 'JBHT', 'JD', 'KLAC', 'LRCX', 'LBTYA', 'LBTYK', 'MAR', 'MXIM', 'MELI', 'MCHP', 'MU', 'MSFT', 'MDLZ', 'MNST', 'MYL', 'NTES', 'NFLX', 'NVDA', 'ORLY', 'PCAR', 'PAYX', 'PYPL', 'PEP', 'QCOM', 'QRTEA', 'REGN', 'ROST', 'STX', 'SHPG', 'SIRI', 'SWKS', 'SBUX', 'SYMC', 'SNPS', 'TMUS', 'TTWO', 'TSLA', 'TXN', 'KHC', 'FOXA', 'FOX', 'ULTA', 'VRSK', 'VRTX', 'VOD', 'WBA', 'WDC', 'WDAY', 'WYNN', 'XLNX']
-    download_all(nasdaq_100_name_list)
+    # nasdaq_100_name_list = ['ATVI', 'ADBE', 'ALXN', 'ALGN', 'GOOGL', 'GOOG', 'AMZN', 'AAL', 'AMGN', 'ADI', 'AAPL', 'AMAT', 'ASML', 'ADSK', 'ADP', 'BIDU', 'BIIB', 'BMRN', 'BKNG', 'AVGO', 'CA', 'CDNS', 'CELG', 'CHTR', 'CHKP', 'CTAS', 'CSCO', 'CTXS', 'CTSH', 'CMCSA', 'COST', 'CSX', 'CTRP', 'XRAY', 'DLTR', 'EBAY', 'EA', 'EXPE', 'ESRX', 'FB', 'FAST', 'FISV', 'GILD', 'HAS', 'HSIC', 'HOLX', 'IDXX', 'ILMN', 'INCY', 'INTC', 'INTU', 'ISRG', 'JBHT', 'JD', 'KLAC', 'LRCX', 'LBTYA', 'LBTYK', 'MAR', 'MXIM', 'MELI', 'MCHP', 'MU', 'MSFT', 'MDLZ', 'MNST', 'MYL', 'NTES', 'NFLX', 'NVDA', 'ORLY', 'PCAR', 'PAYX', 'PYPL', 'PEP', 'QCOM', 'QRTEA', 'REGN', 'ROST', 'STX', 'SHPG', 'SIRI', 'SWKS', 'SBUX', 'SYMC', 'SNPS', 'TMUS', 'TTWO', 'TSLA', 'TXN', 'KHC', 'FOXA', 'FOX', 'ULTA', 'VRSK', 'VRTX', 'VOD', 'WBA', 'WDC', 'WDAY', 'WYNN', 'XLNX']
+    # download_all(nasdaq_100_name_list)
 
+    df = get_all_NASDAQ_company()
+    # print(df['Symbol'][0])
 
+    # for name in df['Symbol']:
+    #     print(name)
+
+    download_all(df['Symbol'])
+    # download_growth_sheet('ARWR')
 # company -> annual -> growth
 #                   -> metrics
 #                   -> income

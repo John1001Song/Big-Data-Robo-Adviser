@@ -1,5 +1,8 @@
-# SVM Classify Stocks
+# CS690 Directed Research Big Data Robo Adviser
+Supervisor: Prof Matthew Malensek\
+Student: Jinyue Song
 
+## SVM Classify Stocks
 1. The dataset compares features and a target (potential company)
 2. Pick stocks having 10%-continue growth for 10 years from NASDAQ-100 as Target stocks.
 3. Build training set and and test set.

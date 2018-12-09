@@ -14,6 +14,7 @@ class QuarterlyPicker:
         self.qualified_ticker_list = []
         self.growth_annual_path = '../datasets/NASDAQ/financial_statement/growth/annual/'
         self.growth_quarterly_path = '../datasets/NASDAQ/financial_statement/growth/quarterly/'
+        self.stock_price_path = '../datasets/NASDAQ/stock_price/'
 
     def get_all_file_name(self, file_path, file_format):
         # get all files names
@@ -34,6 +35,19 @@ class QuarterlyPicker:
         print('reading file: ', file, '\n')
         try:
             df = pd.read_excel(path + file)
+        except:
+            print(f"can't read {file}")
+            return None
+        return df
+
+    def read_one_csv_file(self, path, file):
+        # exclude non csv files
+        if not '.csv' in file:
+            # print("Not a xlsx file. ", file)
+            return
+        print('reading file: ', file, '\n')
+        try:
+            df = pd.read_csv(path + file)
         except:
             print(f"can't read {file}")
             return None
@@ -133,6 +147,46 @@ class QuarterlyPicker:
         res = pd.DataFrame(result_list, columns=['ticker'])
         res.to_csv('qualified_tickers.csv', index=False)
 
+    def get_high_return_stock_in_naive_way(self):
+        '''
+        Assuming, purchase stocks ten years ago and hold them until today to sell.
+        Rank the stocks based on return.
+        :return:
+        '''
+        stock_name_array = self.get_all_file_name(self.stock_price_path, 'csv')
+        print(stock_name_array)
+        high_return_list = list()
+
+        for name in stock_name_array:
+            df = self.read_one_csv_file(self.stock_price_path, name)
+            first_day = df.iloc[0]
+            last_day = df.iloc[-1]
+            if (last_day['Open'] - first_day['Open']) / first_day['Open'] > 10:
+                high_return_list.append(name)
+
+        print('high return stock list')
+        print(len(high_return_list))
+        print(high_return_list)
+        res = pd.DataFrame(high_return_list, columns=['ticker'])
+        res.to_csv('high_return_list.csv', index=False)
+
+    def compare_new_old_stock_list(self):
+        old = pd.read_csv('qualified_tickers.csv')
+        new = pd.read_csv('high_return_list.csv')
+        print(old.head(5))
+        print(new.head(5))
+
+        in_list = list()
+
+        for old_ele in old:
+            if old_ele in new:
+                in_list.append(old_ele)
+
+        print(in_list)
+
+
 if __name__ == '__main__':
     qp = QuarterlyPicker()
-    qp.start()
+    # qp.start()
+    # qp.get_high_return_stock_in_naive_way()
+    qp.compare_new_old_stock_list()

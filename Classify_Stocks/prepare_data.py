@@ -73,7 +73,7 @@ def get_qualified_list(path):
     df = pd.read_csv(path)
     t_list = list()
     for ticker in df['ticker']:
-        t_list.append(ticker)
+        t_list.append(ticker.split('.csv')[0])
     return t_list
 
 
@@ -99,8 +99,8 @@ def read_one_company(path, ticker, qualified_list, all_company_result, full_attr
         feature_checker.append(ele)
 
     qualified_ticker_index = full_attributes.index("Qualified ticker")
-
-    if ticker in qualified_list:
+    company = ticker.split('.xlsx')[0]
+    if company in qualified_list:
         feature_value_list[qualified_ticker_index] = 1
     else:
         feature_value_list[qualified_ticker_index] = 0
@@ -134,7 +134,9 @@ def run(dataset_path):
     arff_res["attributes"] = arff_attribute_list
     all_company_result = list()
 
-    qualified_list = get_qualified_list('qualified_tickers.csv')
+    # qualified_list = get_qualified_list('qualified_tickers.csv')
+    qualified_list = get_qualified_list('high_return_list.csv')
+    print(qualified_list)
     # read each file and get the avg value for each factor
     # the avg values are in a dict and appended to the list
     [read_one_company(dataset_path + fname, fname, qualified_list, all_company_result, full_feature_list) for fname in

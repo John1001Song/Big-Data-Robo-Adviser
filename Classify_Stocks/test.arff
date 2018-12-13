@@ -1,5 +1,5 @@
 @relation company
-@attribute Qualified_ticker integer
+@attribute Qualified_ticker {0, 1}
 @attribute Gross_Profit_Growth real
 @attribute EBIT real
 @attribute Net_Income_Growth real
